@@ -5,17 +5,17 @@
 
 	$hostname = 'localhost'; 	// Host Name
 	
-	$user = ''; // username of host
+	$user = 'root'; // username of host
 	
 	$password = ''; // password of host
 	
-	$dbname = ''; 	//database name
+	$dbname = 'gad'; 	//database name
 	
-	$blogname = ''; // Name of Your Blog
+	$blogname = 'GAD BLOG'; // Name of Your Blog
 	
-	$admin = '';  	// blog admin username for login
+	$admin = 'gad';  	// blog admin username for login
 	
-	$adminpass = '';  // password for blog admin
+	$adminpass = 'gad';  // password for blog admin
 			
 	$con = new mysqli($hostname,$user,$password,$dbname);
 	if (mysqli_connect_errno())
